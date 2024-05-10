@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: Copyright (c) 2024 Infineon Technologies AG
+# SPDX-License-Identifier: MIT
+
+[submodule "submodules/optiga-nbt-lib-c"]
+	path = submodules/optiga-nbt-lib-c
+	url = https://github.com/Infineon/optiga-nbt-lib-c.git
+[submodule "submodules/optiga-nbt-lib-java"]
+	path = submodules/optiga-nbt-lib-java
+	url = https://github.com/Infineon/optiga-nbt-lib-java.git
+[submodule "submodules/optiga-nbt-lib-swift"]
+	path = submodules/optiga-nbt-lib-swift
+	url = https://github.com/Infineon/optiga-nbt-lib-swift.git
