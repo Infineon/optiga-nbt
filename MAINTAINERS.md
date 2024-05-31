@@ -6,4 +6,4 @@ SPDX-License-Identifier: CC-BY-4.0
 # Maintainers
 
 - Josef Steinbaeck <Josef.Steinbaeck@infineon.com>
-- Michel Spaehn <Michael.Spaehn@infineon.com>
+- Michael Spaehn <Michael.Spaehn@infineon.com>

@@ -12,7 +12,7 @@ This is the entry page for the host software offering of the [OPTIGA&trade; Auth
 
 ## Overview
 
-The software offering for the OPTIGA™ Authenticate NBT consists of host libraries for C, Java and Swift. In addition, multiple example applications consisting of embedded, mobile phone, and web server implementations are provided.
+The software offering for the OPTIGA™ Authenticate NBT consists of host libraries for C, Java and Swift. In addition, multiple example applications consisting of embedded, mobile phone, and webserver implementations are provided.
 
 ![OPTIGA™ Authenticate NBT chip](./docs/images/optiga_nbt_chip.png)
 
@@ -30,14 +30,35 @@ The software offering for the OPTIGA™ Authenticate NBT consists of host libr
 The following host libraries are provided as reference implementations and support the integration of the OPTIGA™ Authenticate NBT into various systems.
 
 | Name | Platform | Status |
-| -----| ---------| ------ |
+| ---- | -------- | ------ |
 | [OPTIGA™ Authenticate NBT Host Library for C](https://github.com/Infineon/optiga-nbt-lib-c) | CMake | Active |
+| [OPTIGA™ Authenticate NBT Host Library for ModusToolbox™](https://github.com/Infineon/optiga-nbt-lib-c-mtb) | ModusToolbox™ | Active |
 | [OPTIGA™ Authenticate NBT Host Library for Java](https://github.com/Infineon/optiga-nbt-lib-java) | Gradle Build Tool | Active |
 | [OPTIGA™ Authenticate NBT Host Library for Swift](https://github.com/Infineon/optiga-nbt-lib-swift) | Swift Package Manager | Active |
 
 ### Example applications
 
-> **coming soon..**
+The following example applications are provided for the listed use cases.
+Each application contains a detailed description in the linked GitHub repository.
+
+| Name | Mobile phone | Embedded | Webserver | Status |
+| ---- |--------------| -------- | --------- | ------ |
+| Brand protection with offline authentication   | [Android](https://github.com/Infineon/optiga-nbt-example-bp-android), [iOS](https://github.com/Infineon/optiga-nbt-example-bp-ios) |   |   | Active |
+| Brand protection with online authentication    |  |   | [python (Flask)](https://github.com/Infineon/optiga-nbt-example-cott-flask)  | Active |
+| Host parameterization via async. data transfer  | [Android](https://github.com/Infineon/optiga-nbt-example-adt-android), [iOS](https://github.com/Infineon/optiga-nbt-example-adt-ios) |  [ModusToolbox™](https://github.com/Infineon/mtb-example-optiga-nbt-adt)  |   | Active |
+| Host parameterization via pass-through | [Android](https://github.com/Infineon/optiga-nbt-example-pt-android), [iOS](https://github.com/Infineon/optiga-nbt-example-pt-ios) |   [ModusToolbox™](https://github.com/Infineon/mtb-example-optiga-nbt-pt) |   | Active |
+| Static connection handover    |  |   [ModusToolbox™](https://github.com/Infineon/mtb-example-optiga-nbt-sch) |  | Active |
+| Personalization via NFC       | [Android](https://github.com/Infineon/optiga-nbt-example-perso-android), [iOS](https://github.com/Infineon/optiga-nbt-example-perso-ios) |   |   | Active |
+
+#### Reference hardware
+
+Dedicated reference hardware is available to simplify the evaluation of the OPTIGA™ Authenticate NBT.
+
+- [OPTIGA™ Authenticate NBT Development Kit](https://www.infineon.com/OPTIGA-Authenticate-NBT-Dev-Kit)
+- [OPTIGA™ Authenticate NBT Development Shield](https://www.infineon.com/OPTIGA-Authenticate-NBT-Dev-Shield)
+
+The shield consists the OPTIGA™ Authenticate NBT device, an NFC antenna, and a pin-header to connect to any custom microcontroller via I2C (for embedded applications).
+The kit includes the shield and, additionally, the reference host microcontroller board ([PSoC&trade; 62S2 Wi-Fi Bluetooth&reg; Prototyping Kit](https://www.infineon.com/CY8CPROTO-062S2-43439)).
 
 ## Getting started
 
